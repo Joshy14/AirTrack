@@ -1,9 +1,86 @@
-html {
-  height: 100%;
-  width: 100%;
+html, body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  zoom:90%;
+  max-zoom: 100%;
+  min-zoom: 80%;
+  font-family: 'Comfortaa';
 }
 .call{
-  height:100px;
-  width:100px; 
-  background-color: red;
+  height:35px;
+  width:70px; 
+  background-color: #92b6b6;
+  border: 5px solid #5d7474;
+  display: flex;
+  border-radius:4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.info{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.fl_iata{
+ margin-bottom: -5px; 
+}
+.airline{
+  margin-top: 0.5px;
+}
+.where{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.depart{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arrive{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dep_iata{
+  margin-bottom: -5px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+.dep_city{
+  margin-top:.5px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+.arr_iata{
+  margin-bottom: -5px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+.arr_city{
+  margin-top:.5px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+.flnm{
+  margin-bottom: 5px;
+  border-radius: 7px;
+  border-style: dashed;
+  border-color: #3f544a;
+  border-width: 2px;
+  -webkit-transform: scale(1.05);       transform: scale(1.05);
+}
+.flnm:focus{
+  outline: 0;
 }
